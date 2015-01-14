@@ -14,9 +14,9 @@
 	NSString * artist =[nowPlayingInfo valueForKey:@"artist"];
 	NSString * album =[nowPlayingInfo valueForKey:@"albumTitle"];
 
-	NSLog(@"LastGoogle|%@|%@|%f", artist, title, timestamp);
 	int timestamp = [[NSNumber numberWithDouble: [[NSDate date] timeIntervalSince1970]] integerValue];
 
+	NSLog(@"LastGoogle|%@|%@|%@|%i", artist, title, album, timestamp);
 	
 	/*for (NSString *key in nowPlayingInfo) 
 	{
