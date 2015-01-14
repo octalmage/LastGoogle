@@ -7,7 +7,6 @@
 
 	//Sleep so nowPlayingInfo can update.
     [NSThread sleepForTimeInterval:1.0f];
-	NSLog(@"Hey, notifyTrackChanged!");
 
 	NSMutableDictionary *nowPlayingInfo = MSHookIvar<NSMutableDictionary *>(self, "_nowPlayingInfo");
 
@@ -20,7 +19,6 @@
 
 
 	NSLog(@"LastGoogle|%@|%@|%f", artist, title, timestamp);
-	//NSLog(@"Song = %@", title);
 
 	
 	/*for (NSString *key in nowPlayingInfo) 
