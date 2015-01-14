@@ -4,12 +4,12 @@ Mobile Substrate tweak to log songs played using the Google Play Music iOS app.
 
 This tweak logs songs played using NSLog. 
 
-## Requirements
+### Requirements
 
 * syslogd to /var/log/syslog (from Cydia).
 * A way to view the log, like openssh. 
 
-## Instructions
+### Instructions
 
 You can use grep to find the logged songs: 
 
@@ -36,3 +36,7 @@ LastGoogle|Artist|Song|Album|Timestamp
 You can then use these logs anyway you'd like! 
 
 For example, you can Scrobble the songs on [Last.fm](http://last.fm) using [ScrobbleLogs](https://github.com/octalmage/ScrobbleLogs).
+
+### License
+
+MIT
