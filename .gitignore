@@ -1,0 +1,6 @@
+theos/
+*.deb
+obj/
+_/
+.*
+!/.gitignore
