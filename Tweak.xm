@@ -13,6 +13,7 @@
 
 	NSString * title =[nowPlayingInfo valueForKey:@"title"];
 	NSString * artist =[nowPlayingInfo valueForKey:@"artist"];
+	NSString * album =[nowPlayingInfo valueForKey:@"albumTitle"];
 
 	NSDate *date = [NSDate date];
 	NSTimeInterval timestamp = [date timeIntervalSince1970];
