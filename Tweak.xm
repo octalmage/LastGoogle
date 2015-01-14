@@ -9,9 +9,6 @@
     [NSThread sleepForTimeInterval:1.0f];
 	NSLog(@"Hey, notifyTrackChanged!");
 
-	//NSString *currentTrack = [self currentTrack];
-	//NSLog(@"Value of currentTrack = %@", currentTrack);
-
 	NSMutableDictionary *nowPlayingInfo = MSHookIvar<NSMutableDictionary *>(self, "_nowPlayingInfo");
 
 	NSString * title =[nowPlayingInfo valueForKey:@"title"];
