@@ -6,7 +6,7 @@
 	%log;
 
 	//Sleep so nowPlayingInfo can update.
-    [NSThread sleepForTimeInterval:1.0f];
+	[NSThread sleepForTimeInterval:1.0f];
 
 	NSMutableDictionary *nowPlayingInfo = MSHookIvar<NSMutableDictionary *>(self, "_nowPlayingInfo");
 
