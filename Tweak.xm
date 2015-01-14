@@ -5,6 +5,8 @@
 {
 	%log;
 
+	//Sleep so nowPlayingInfo can update.
+    [NSThread sleepForTimeInterval:1.0f];
 	NSLog(@"Hey, notifyTrackChanged!");
 
 	//NSString *currentTrack = [self currentTrack];
