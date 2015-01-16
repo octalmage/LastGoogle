@@ -37,6 +37,8 @@ You can then use these logs anyway you'd like!
 
 For example, you can Scrobble the songs on [Last.fm](http://last.fm) using [ScrobbleLogs](https://github.com/octalmage/ScrobbleLogs).
 
+Remember to empty the log when you're done! 
+
 ### License
 
 MIT
