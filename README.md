@@ -6,7 +6,9 @@ This tweak logs songs played using NSLog.
 
 ### Plans 
 
-This is still a work in progress, but I wanted to get something working as soon as possible. Here's what I have planned (in order): 
+This is still a work in progress, but I wanted to get something working as soon as possible. 
+
+Here's what I have planned (in order): 
 
 * Only log after 30 seconds. 
 * Automatticly send to Last.fm.
