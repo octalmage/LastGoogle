@@ -4,6 +4,15 @@ Mobile Substrate tweak to log songs played using the Google Play Music iOS app.
 
 This tweak logs songs played using NSLog. 
 
+### Plans 
+
+This is still a work in progress, but I wanted to get something working as soon as possible. Here's what I have planned (in order): 
+
+* Only log after 30 seconds. 
+* Automatticly send to Last.fm.
+* Now Playing support. 
+* Heart liked tracks.
+
 ### Requirements
 
 * syslogd to /var/log/syslog (from Cydia).
