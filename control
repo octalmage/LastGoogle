@@ -1,7 +1,7 @@
 Package: gs.stallin.jason.lastgoogle
 Name: LastGoogle
 Depends: mobilesubstrate
-Version: 0.0.1
+Version: 0.1.0
 Architecture: iphoneos-arm
 Description: An awesome MobileSubstrate tweak!
 Maintainer: Jason Stallings
