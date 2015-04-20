@@ -36,7 +36,7 @@
 
 	//NSLog(@"LastGoogle|%@|%@|%@|%i", artist, title, album, timestamp);
 	
-	NSString *line = [NSString stringWithFormat:@"LastGoogle|%@|%@|%@|%i", artist, title, album, timestamp];
+	NSString *line = [NSString stringWithFormat:@"LastGoogle|%@|%@|%@|%i\n", artist, title, album, timestamp];
 	
 	[aFileHandle writeData:[line dataUsingEncoding:nil]]; //actually write the data
 	
