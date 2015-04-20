@@ -14,6 +14,12 @@
 	//Telling aFilehandle what file write to.
 	aFileHandle = [NSFileHandle fileHandleForWritingAtPath:aFile]; 
 	
+	//Create file if it doesn't exist.
+	if ( !aFileHandle ) 
+	{
+        [[NSFileManager defaultManager] createFileAtPath:aFile contents:nil attributes:nil];
+		aFileHandle = [NSFileHandle fileHandleForWritingAtPath:aFile];
+    }
 	//Setting aFileHandle to write at the end of the file.
 	[aFileHandle truncateFileAtOffset:[aFileHandle seekToEndOfFile]]; 
 
