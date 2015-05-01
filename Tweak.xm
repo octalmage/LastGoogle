@@ -42,14 +42,6 @@
 	
 	[aFileHandle closeFile];
 
-	
-	/*for (NSString *key in nowPlayingInfo) 
-	{
-    	NSLog(@"key: %@", key);
-    	NSLog(@"value: %@", [nowPlayingInfo objectForKey:key]);
-	}*/
-	
-
 	%orig;
 }
 %end
