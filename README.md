@@ -2,7 +2,7 @@
 
 Mobile Substrate tweak to log songs played using the Google Play Music iOS app. 
 
-This tweak logs songs played to `/var/log/lastgoogle.log`.
+This tweak logs songs to `/var/log/lastgoogle.log`.
 
 ### Plans 
 
