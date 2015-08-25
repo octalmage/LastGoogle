@@ -16,7 +16,7 @@ Here's what I have planned (in order):
 * Heart liked tracks.
 
 ### Requirements
-
+* A Jailbroken iPhone.
 * You have to manually create the file `/var/log/lastgoogle.log` so LastGoogle can write to it.
 * A way to view the log, like openssh. 
 
